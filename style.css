@@ -32,7 +32,7 @@ body {
     border-bottom: 1vw solid #000;
 }
 .explorer-header h1 {
-    font-size: 1.6vw;
+    font-size: 1rem;
     margin: 0;
 }
 .explorer-body {
@@ -87,10 +87,10 @@ body {
 }
 .file-size {
     color: #666;
-    font-size: 1.2vw;
+    font-size: 0.75rem;
 }
 .artist-name {
-    font-size: 1.2vw;
+    font-size: 0.75rem;
     color: #333;
     margin-top: 0.5vh;
     font-style: italic;
