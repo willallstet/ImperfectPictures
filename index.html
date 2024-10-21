@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperfect Pictures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="explorer-window">
+        <div class="explorer-header">
+            <h1>Imperfect Pictures</h1>
+            <div class="window-controls">
+                <span>_</span>
+                <span>[ ]</span>
+                <span>X</span>
+            </div>
+        </div>
+        <div class="explorer-body">
+            <div class="desktop" id="desktop">
+                <!--
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="https://girlunline.com/phone.html" download>phone.html</a>
+                    <div class="artist-name">Isabelle Rosado</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/Blade as by Brandon English.zip" download>blade as.zip</a>
+                    <div class="artist-name">Brandon English</div>
+                </div>
+                -->
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/plastic_images.zip" download>plastic_images.zip</a>
+                    <a href="https://www.instagram.com/gus.nordhielm" target="_blank"><div class="artist-name">Gus Nordhielm</div></a>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="http://trafficcamphotobooth.com/" download>traffic cam photobooth</a>
+                    <a href="https://www.instagram.com/wttdotm" target="_blank"><div class="artist-name">Morry Kolman</div></a>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/helen lin.zip" download>helen lin.zip</a>
+                    <a href="https://www.instagram.com/helenlinyum" target="_blank"><div class="artist-name">Helen Lin</div></a>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/yunjia yuan.zip" download>yeshu.zip</a>
+                    <a href="https://www.instagram.com/address_invalid" target="_blank"><div class="artist-name">Yunjia Yuan</div></a>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/Lucia - Open Folder.zip.zip" download>lucia - open folder.zip</a>
+                    <a href="https://www.instagram.com/luciarebolino" target="_blank"><div class="artist-name">Lucia Rebolino</div></a>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/meditations on meandering.zip" download>meditations on meandering.zip</a>
+                    <div class="artist-name">Cecilia Zhang</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/rusty's final project🔨🍻.zip" download>rusty's final project🔨🍻.zip</a>
+                    <a href="https://www.instagram.com/rustb3ltbaby" target="_blank"><div class="artist-name">Lauren Schoepflin</div></a>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/can-you-hear-me-over-the-files.zip" download>can-you-hear-me-over-the-files.zip</a>
+                    <a href="https://www.instagram.com/luuugillespie" target="_blank"><div class="artist-name">Lu Gillespie</div></a>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/WhatsYourIPAddress.zip" download>WhatsYourIPAddress.zip</a>
+                    <div class="artist-name">Kayla Henry-Griffin</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/Purgatory.zip" download>purgatory.zip</a>
+                    <a href="https://www.instagram.com/zotrisch" target="_blank"><div class="artist-name">Zoe Trischka</div></a>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/Christina Cuneo.zip" download>christina cuneo.zip</a>
+                    <a href="https://www.instagram.com/tina.gif" target="_blank"><div class="artist-name">Christina Cuneo</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function shuffleElements(container) {
+            for (let i = container.children.length; i >= 0; i--) {
+                container.appendChild(container.children[Math.random() * i | 0]);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const desktop = document.getElementById("desktop");
+            shuffleElements(desktop);
+        });
+    </script>
+</body>
+</html>
