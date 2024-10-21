@@ -25,11 +25,11 @@ body {
 }
 .explorer-header {
     background-color: #f0f0f0;
-    padding: 0.5vw;
+    padding: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1vw solid #000;
+    border-bottom: 0.1vw solid #000;
 }
 .explorer-header h1 {
     font-size: 1rem;
@@ -76,12 +76,13 @@ body {
     width: fit-content;
     max-width: 30vw;
     padding: 1vw;
+    font-size: 4rem;
     word-wrap: break-word;
     overflow: hidden;
     font-weight: bold;
 }
 .icon img {
-    width: 4.8vw; /* Set the width of the icon */
+    width: 6vw; /* Set the width of the icon */
     height: auto; /* Keep aspect ratio */
     margin-bottom: 0.5vw;
 }
@@ -90,7 +91,7 @@ body {
     font-size: 0.75rem;
 }
 .artist-name {
-    font-size: 0.75rem;
+    font-size: 3.5rem;
     color: #333;
     margin-top: 0.5vh;
     font-style: italic;
