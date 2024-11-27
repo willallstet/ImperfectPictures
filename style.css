@@ -126,7 +126,7 @@ body {
         border: 0.1vw solid #000;
         background-color: #fff;
         width: 80vw;
-        height: 70vh;
+        height: 55vh;
         display: flex;
         flex-direction: column;
         box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
