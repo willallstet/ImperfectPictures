@@ -97,3 +97,17 @@ body {
     font-style: italic;
     font-weight: normal;
 }
+
+@media (max-width: 768px) {
+    .icon {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+
+    .icon img {
+        width: 6vw; /* Adjust icon size for mobile */
+    }
+
+    .artist-name {
+        font-size: 1rem; /* Smaller font size for artist name on mobile */
+    }
+}
