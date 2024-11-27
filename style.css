@@ -76,7 +76,7 @@ body {
     width: fit-content;
     max-width: 30vw;
     padding: 1vw;
-    font-size: 2rem;
+    font-size: 3rem;
     word-wrap: break-word;
     overflow: hidden;
     font-weight: bold;
@@ -88,10 +88,10 @@ body {
 }
 .file-size {
     color: #666;
-    font-size: 0.75rem;
+    font-size: 0.5rem;
 }
 .artist-name {
-    font-size: 2rem; /* Smaller font size for the artist name */
+    font-size: 3rem; /* Smaller font size for the artist name */
     color: #333;
     margin-top: 0.5vh;
     font-style: italic;
