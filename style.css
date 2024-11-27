@@ -110,4 +110,17 @@ body {
     .artist-name {
         font-size: 1rem; /* Smaller font size for artist name on mobile */
     }
+    .explorer-header {
+        background-color: #f0f0f0;
+        padding: 0.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        border-bottom: 0.08vw solid #000;
+    }
+    .explorer-header h1 {
+        font-size: 1rem;
+        margin: 0;
+    }   
 }
