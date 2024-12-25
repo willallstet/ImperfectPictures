@@ -28,11 +28,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 4rem;
+    font-size: 16px;
     border-bottom: 0.1vw solid #000;
 }
 .explorer-header h1 {
-    font-size: 4rem;
+    font-size: 16px;
     margin: 0;
 }
 .explorer-body {
@@ -75,7 +75,7 @@ body {
     width: fit-content;
     max-width: 30vw;
     padding: 1vw;
-    font-size: 3rem;
+    font-size: 14px;
     word-wrap: break-word;
     overflow: hidden;
     font-weight: bold;
@@ -87,10 +87,10 @@ body {
 }
 .file-size {
     color: #666;
-    font-size: 0.5rem;
+    font-size: 8px;
 }
 .artist-name {
-    font-size: 3rem;
+    font-size: 14px;
     color: #333;
     margin-top: 0.5vh;
     font-style: italic;
@@ -99,7 +99,7 @@ body {
 
 @media (max-width: 768px) {
     .icon {
-        font-size: 1rem; 
+        font-size: 12px;
     }
 
     .icon img {
@@ -107,7 +107,7 @@ body {
     }
 
     .artist-name {
-        font-size: 1rem;
+        font-size: 12px;
     }
     .explorer-header {
         background-color: #f0f0f0;
@@ -115,11 +115,11 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 1rem;
+        font-size: 12px;
         border-bottom: 0.08vw solid #000;
     }
     .explorer-header h1 {
-        font-size: 1rem;
+        font-size: 12px;
         margin: 0;
     }   
     .explorer-window {
